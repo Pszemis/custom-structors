@@ -1,0 +1,130 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.generator": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {"generate_beach": "q.property('piew:biome_type') == 0"},
+                        {"generate_desert": "q.property('piew:biome_type') == 1"},
+                        {"generate_extreme_hills": "q.property('piew:biome_type') == 2"},
+                        {"generate_flat": "q.property('piew:biome_type') == 3"},
+                        {"generate_forest": "q.property('piew:biome_type') == 4"},
+                        {"generate_ice": "q.property('piew:biome_type') == 5"},
+                        {"generate_jungle": "q.property('piew:biome_type') == 6"},
+                        {"generate_mesa": "q.property('piew:biome_type') == 7"},
+                        {"generate_mushroom_island": "q.property('piew:biome_type') == 8"},
+                        {"generate_ocean": "q.property('piew:biome_type') == 9"},
+                        {"generate_plain": "q.property('piew:biome_type') == 10"},
+                        {"generate_river": "q.property('piew:biome_type') == 11"},
+                        {"generate_savanna": "q.property('piew:biome_type') == 12"},
+                        {"generate_stone_beach": "q.property('piew:biome_type') == 13"},
+                        {"generate_swamp": "q.property('piew:biome_type') == 14"},
+                        {"generate_taiga": "q.property('piew:biome_type') == 15"},
+                        {"generate_the_end": "q.property('piew:biome_type') == 16"},
+                        {"generate_the_nether": "q.property('piew:biome_type') == 17"}
+                    ]
+                },
+                "generate_beach": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_desert": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_extreme_hills": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_flat": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_forest": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_ice": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_jungle": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_mesa": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_mushroom_island": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_ocean": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_plain": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_river": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_savanna": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_stone_beach": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_swamp": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_taiga": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_the_end": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                },
+                "generate_the_nether": {
+                    "on_entry": [
+                        "/function generate/s1/l1_check_s_1"
+                    ]
+                }
+            }
+        },
+        "controller.animation.secure_player_region": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": ["secure_player_region"]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.player.secure_player_region":{
+            "animation_length": 2,
+            "loop": true,
+            "timeline": {
+                "0.0": "/execute as @s at @s unless block ~ -64 ~ minecraft:wool run fill ~18 -64 ~18 ~-18 -64 ~-18  minecraft:wool"
+            }   
+        }
+    }
+}

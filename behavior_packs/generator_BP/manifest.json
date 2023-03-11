@@ -3,20 +3,20 @@
     "header": {
         "description": "pack.description",
         "name": "pack.name",
-        "uuid": "INSERT NEW UUID HERE",
+        "uuid": "ded62780-e1ba-4694-823d-086fb6db9582",
         "version": [1, 0, 0],
-        "min_engine_version": "INSERT STABLE VERSION OF MC HERE IN A LIST (e.g. [1, 7, 2])"
+        "min_engine_version": [1, 19, 60]
     },
     "modules": [
         {
             "type": "data",
-            "uuid": "INSERT NEW UUID HERE",
+            "uuid": "2c0a4a4f-e052-4d67-84c9-1daeabc39054",
             "version": [1, 0, 0]
         }
     ],
     "dependencies": [
         {
-            "uuid": "INSERT THE RESOURCEPACK HEADER UUID HERE",
+            "uuid": "5c5cbf1d-e6bc-467b-b8b7-4b155250f9a8",
             "version": [1, 0, 0]
         }
     ]
