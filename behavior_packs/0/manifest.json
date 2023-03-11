@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "pack.description",
+        "name": "pack.name",
+        "uuid": "INSERT NEW UUID HERE",
+        "version": [1, 0, 0],
+        "min_engine_version": "INSERT STABLE VERSION OF MC HERE IN A LIST (e.g. [1, 7, 2])"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "INSERT NEW UUID HERE",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "INSERT THE RESOURCEPACK HEADER UUID HERE",
+            "version": [1, 0, 0]
+        }
+    ]
+}

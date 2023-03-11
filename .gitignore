@@ -1,0 +1,10 @@
+world_icon.jpeg
+/.idea/shelf/
+/.idea
+**/.mypy_cache/**
+**/.vscode/**
+**/__pycache__/**
+**/GameTests-Shapescape/**
+**/.DS_Store
+**.blend1
+**.xml
